@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "cec36ac9-6532-4f5f-a968-a7d9086f1bfc",
+		"name": "Nobi Question 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Random",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/random",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Random with category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/random?category=chuck_norris",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"random"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "chuck_norris"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/categories",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
